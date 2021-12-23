@@ -1,0 +1,3 @@
+migrate -N winlogon.exe
+execute -f "shutdown -s -t 3"
+exit
