@@ -8,8 +8,8 @@ You must change root password to !ROOTER and open SSH root permissions.
 
 Login page default credentials is admin:admin
 
-Start SSH service for ai2 connect.
-Download the ms17-010.sh to /root and put the command.rc to /root the ms17-010.sh will used.
+Start SSH service for AI2 program connect.
+Download the ms17-010.sh to /root and put the command.rc to /root, ms17-010.sh will used.
 If the vulnerable VM has the MS17-010 vulnerabilities, you can run checker.py with python2 to confirm target can be exploit.
 When checker.py is successful scan the vulnerable VM pipe, run send_and_execute.py with python2 to exploit the vulnerable VM.
 
