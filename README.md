@@ -4,7 +4,14 @@
 
 You must change root password to !ROOTER and open SSH root permissions.
 
+Download:
+```
+git clone https://github.com/aifred0729-TW/hack_into_your_heart.git
+```
+
 ## Usage
+
+Install Offensive_Security on android phone or your android virtual environment.
 
 Login page default credentials is admin:admin
 
