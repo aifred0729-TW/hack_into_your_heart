@@ -4,7 +4,7 @@
 
 You must change root password to !ROOTER and open SSH root permissions.
 
-## Use
+## Usage
 
 Offensive Secuirty Login page default account and password is admin:admin
 
