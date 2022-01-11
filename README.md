@@ -4,7 +4,7 @@
 
 You must change root password to !ROOTER and open SSH root permissions.
 
-Download:
+### Download:
 ```
 git clone https://github.com/aifred0729-TW/hack_into_your_heart.git
 ```
@@ -42,7 +42,7 @@ Scan report will below the console.<br>
 
 ### Searchsploit Module:<br>
 Type the vulnerabilities number or CMS/Service name and version.<br>
-If the input text is vulnerable, than it will show the exploit.<br>
+If the input CMS/Service is vulnerable, than it will show the exploit.<br>
 
 ### Metasploit Module:<br>
 Type the RHost LHost to input box and select a exploit module, then you can exploit.<br>
